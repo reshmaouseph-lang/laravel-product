@@ -1,0 +1,8 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
+
+
+Route::get('/', [ProductController::class, 'ui'])->name('products.ui');
+
